@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammed Firoz</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icons" href="https://i.ibb.co/VYSg11F/Screenshot-2024-02-29-195817.png" type="png">
+    <link rel="icon" href="https://i.ibb.co/VYSg11F/Screenshot-2024-02-29-195817.png" type="png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+VaC5q0P1RBwx+6jmaB4lXt2tTk5BkxyK54QEyF" crossorigin="anonymous">
     <!-- boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400;1,900;1600&display=swap"
-        rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400;1,900;1600&display=swap" rel="stylesheet">
+    <style>
+        /* Add custom styles here if needed */
+    </style>
 </head>
 
 <body>
     <header class="header">
-        <a href="" class="logo">Portfolio</a>
+        <a href="#" class="logo">Portfolio</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -25,7 +26,6 @@
             <a href="#Home" class="active">Home</a>
             <a href="#About">About</a>
             <a href="#Skills">Skills</a>
-            
             <a href="#Contact">Contact</a>
         </nav>
     </header>
@@ -33,22 +33,21 @@
     <!-- Home section -->
 
     <section class="home" id="Home">
-        <div class="home-content">
+        <div class="home-content container">
             <h3>Hey, I'm </h3>
             <h1>Firoz</h1>
             <h3>I work as a<span>Driver for RTA buses in Dubai.
             </span></h3>
             <p>
                 As a driver for RTA buses in Dubai, every day is a journey filled with diversity and excitement. From navigating bustling streets to ensuring passenger safety, I take pride in connecting people to their destinations with a friendly smile. In this vibrant city, I'm not just a driver; I'm a part of Dubai's dynamic heartbeat, linking people and places with each route I drive.
-              </p>
+            </p>
             <div class="social-media">
                 <a href="https://www.facebook.com/firo.vazhakkam"><i class='bx bxl-facebook-circle'></i></a>
-                
             </div>
-            <a href="tel:+971 50 310 4156" class="btn">Contact Me</a>
+            <a href="tel:+971 50 310 4156" class="btn btn-primary">Contact Me</a>
         </div>
         <div class="home-image">
-            <img src="https://i.ibb.co/bvnX5Nm/Screenshot-2024-02-29-200750.png" alt="Firoz"></a>
+            <img src="https://i.ibb.co/bvnX5Nm/Screenshot-2024-02-29-200750.png" alt="Firoz">
         </div>
     </section>
 
@@ -58,57 +57,88 @@
         <div class="about-img">
             <img src="" alt="">
         </div>
-        <div class="about-content">
+        <div class="about-content container">
             <h2 class="heading">About <span>Me</span></h2>
             <h3> A Bus Driver's Tale</h3>
             <p>
-     I am a dedicated bus driver for the Roads and Transport Authority (RTA) in Dubai, with X years of valuable experience serving the community. Throughout my tenure with RTA, I have honed my skills in ensuring safe and efficient transportation for passengers across the city. My commitment to punctuality, passenger safety, and excellent service drives me to uphold the highest standards in my role. I take pride in being a reliable and responsible member of the RTA team, contributing to the smooth operation of public transportation in Dubai.
+                I am a dedicated bus driver for the Roads and Transport Authority (RTA) in Dubai, with X years of valuable experience serving the community. Throughout my tenure with RTA, I have honed my skills in ensuring safe and efficient transportation for passengers across the city. My commitment to punctuality, passenger safety, and excellent service drives me to uphold the highest standards in my role. I take pride in being a reliable and responsible member of the RTA team, contributing to the smooth operation of public transportation in Dubai.
             </p>
-            <a href="" class="btn">Read More</a>
+            <a href="#" class="btn btn-primary">Read More</a>
         </div>
     </section>
 
-    <!-- Service section -->
+    <!-- Skills section -->
 
     <section class="Skills" id="Skills">
-        <h2>My <span>Skills</span></h2>
-        <div class="skill-container">
-            <div class="skills-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Safe Driving</h3>
-                <p>
-                    As an RTA bus driver in Dubai, I prioritize safety above all else. I rigorously adhere to traffic laws, employ defensive driving strategies, and uphold a pristine driving record to safeguard the welfare of passengers and pedestrians, ensuring a secure and reliable commuting experience throughout the city.
-                </p>
+        <div class="container">
+            <h2>My <span>Skills</span></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skills-box">
+                        <i class="bx bx-code-alt"></i>
+                        <h3>Safe Driving</h3>
+                        <p>
+                            As an RTA bus driver in Dubai, I prioritize safety above all else. I rigorously adhere to traffic laws, employ defensive driving strategies, and uphold a pristine driving record to safeguard the welfare of passengers and pedestrians, ensuring a secure and reliable commuting experience throughout the city.
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
     </section>
+
+    <!-- Contact section -->
 
     <section class="Contact" id="Contact">
-<h2 class="heading">Contact <span>Me</span></h2>
-      <form action="#">
-        <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
+        <div class="container">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="#">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <input type="number" class="form-control" placeholder="Mobile Number" aria-label="Mobile Number" aria-describedby="basic-addon3">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Email Subject" aria-label="Email Subject" aria-describedby="basic-addon4">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group">
+                            <textarea class="form-control" placeholder="Your Message" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email Subject">
-        </div>
-        <textarea name="" id="" cols="10" rows="8" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
-      </form>
     </section>
 
-    <!-- footer section -->
+    <!-- Footer section -->
 
     <footer class="footer">
-        <div class="footer-text"><p>Copyright & copy; 2024 Muhammed Adnan vv  | All Rights Reserved.</p></div>
-        
+        <div class="container">
+            <div class="footer-text"><p>Copyright &copy; 2024 Muhammed Adnan vv | All Rights Reserved.</p></div>
+        </div>
         <div class="footer-icontop">
             <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    
 </body>
 
 </html>
+
+
